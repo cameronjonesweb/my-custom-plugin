@@ -1,0 +1,33 @@
+.login h1 a {
+	background-image: url( ../img/mascot.png );
+	background-size: contain;
+	width: 100%;
+	height: auto;
+	padding-bottom: 50%;
+}
+
+.login .button-primary.button-large {
+	background: #e46341;
+	border: none;
+	border-radius: 0;
+	text-shadow: none;
+	box-shadow: none;
+	padding: 8px 20px 10px;
+	line-height: normal;
+	height: auto;
+	font-size: 14px;
+}
+
+.login .button-primary.button-large:hover,
+.login .button-primary.button-large:focus {
+	background: #c9523a;
+}
+
+.login input[type=checkbox]:checked:before {
+	color: #e46341;
+}
+
+.login input:focus {
+	box-shadow: 0 0 2px #e46341;
+	border-color: #e46341;
+}

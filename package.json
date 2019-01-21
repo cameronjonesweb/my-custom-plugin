@@ -1,0 +1,9 @@
+{
+  "name": "my-custom-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-wp-i18n": "^1.0.2"
+  }
+}
