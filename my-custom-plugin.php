@@ -3,8 +3,9 @@
  * Plugin Name: My Custom Plugin
  * Author: Cameron Jones
  * Author URI: https://mongoosemarketplace.com
- * Description: Customises the login page
+ * Description: Customizes the login page
  * Plugin URI: https://skillshare.com
+ * Version: 1.0.0
  * Text Domain: my-custom-plugin
  *
  * @package my-custom-plugin
@@ -12,6 +13,7 @@
 
 add_action( 'init', 'my_custom_plugin_register_scripts' );
 add_action( 'login_enqueue_scripts', 'my_custom_plugin_enqueue_scripts' );
+add_action( 'plugins_loaded', 'my_custom_plugin_load_text_domain' );
 
 add_filter( 'login_headerurl', 'my_custom_plugin_login_headerurl' );
 add_filter( 'login_headertitle', 'my_custom_plugin_login_headertitle' );
@@ -63,4 +65,11 @@ function my_custom_plugin_login_headertitle( $login_header_title ) {
 function my_custom_plugin_login_errors( $errors ) {
 	$errors = __( 'There was a problem logging in with the credentials you provided', 'my-custom-plugin' );
 	return $errors;
+}
+
+/**
+ * Loads the plugin translations
+ */
+function my_custom_plugin_load_text_domain() {
+	load_plugin_textdomain( 'my-custom-plugin', false, basename( plugin_dir_path( __FILE__ ) ) . '/languages/' );
 }

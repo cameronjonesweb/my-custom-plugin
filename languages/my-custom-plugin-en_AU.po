@@ -1,0 +1,44 @@
+# Copyright (C) 2019 Cameron Jones
+# This file is distributed under the same license as the My Custom Plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: My Custom Plugin\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/my-custom-plugin\n"
+"POT-Creation-Date: 2019-01-21 11:48:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-01-21 21:49+1000\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_AU\n"
+
+#: my-custom-plugin.php:53
+msgid "Powered by Mongoose Marketplace"
+msgstr "Powered by Mongoose Marketplace"
+
+#: my-custom-plugin.php:64
+msgid "There was a problem logging in with the credentials you provided"
+msgstr "There was a problem logging in with the credentials you provided"
+
+#. Plugin Name of the plugin/theme
+msgid "My Custom Plugin"
+msgstr "My Custom Plugin"
+
+#. Plugin URI of the plugin/theme
+msgid "https://skillshare.com"
+msgstr "https://skillshare.com"
+
+#. Description of the plugin/theme
+msgid "Customizes the login page"
+msgstr "Customises the login page"
+
+#. Author of the plugin/theme
+msgid "Cameron Jones"
+msgstr "Cameron Jones"
+
+#. Author URI of the plugin/theme
+msgid "https://mongoosemarketplace.com"
+msgstr "https://mongoosemarketplace.com"
